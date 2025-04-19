@@ -212,6 +212,10 @@
 
   @media screen and (max-width: 768px) 
   {
+    .home {
+      padding: 230px 0;
+    }
+
     .home h1 {
       font-size: 64px;
     }
@@ -264,10 +268,10 @@
     justify-content: center;
     flex-direction: column;
     margin: 10px;
-    height: 430px;
-    width: 365px;
-    border-radius: 100%;
-    border: #fff solid 5px;
+    height: 470px;
+    width: 355px;
+    border-radius: 10px;
+    border: #fff solid 3px;
   }
 
   @media screen and (max-width: 1100px) 
@@ -322,6 +326,7 @@
   
     .main-content p {
       margin-top: 2rem;
+      font-size: 0.2rem;
     }
   }
 
@@ -529,5 +534,3 @@
       flex-direction: column;
     }
   }
-
-
