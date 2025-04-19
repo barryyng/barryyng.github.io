@@ -174,14 +174,36 @@
   .home h1 {
     font-size: 100px;
     margin-bottom: 24px;
-    color: #6daffe;
+    color: #000;
     font-weight: 2000;
   }
   
   .home-description {
     font-size: 50px;
     color: #6daffe;
+    animation: jumpCycle 3s ease-in-out infinite;
   }
+
+ @keyframes jumpCycle {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-17px);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-17px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
   .home-prompt {
     font-size: 28px;
@@ -204,7 +226,7 @@
   }
 
   .main {
-    background-color: #6daffe;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(132, 194, 242, 1) 31%, rgba(109, 175, 254, 1) 78%, rgba(58, 141, 223, 1) 100%);
     padding: 10rem 0;
   }
 
@@ -380,7 +402,7 @@
   }
 
   .projects {
-    background: #6daffe;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(132, 194, 242, 1) 31%, rgba(109, 175, 254, 1) 78%, rgba(58, 141, 223, 1) 100%);
     padding: 200px 0;
   }
 
