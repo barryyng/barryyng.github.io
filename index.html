@@ -11,6 +11,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Libre+Baskerville&family=Work+Sans&display=swap" rel="stylesheet">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Baskerville&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
    </head>
@@ -28,15 +29,12 @@
              <a href="#home" class="navbar-links" id="home-page">Home</a>
            </li>
            <li class="navbar-item">
-             <a href="#about" class="navbar-links" id="about-page">About Me</a>
+             <a href="#experience" class="navbar-links" id="experience-page">Experience</a>
            </li>
            <li class="navbar-item">
              <a href="#skills" class="navbar-links" id="skills-page">Skills</a>
            </li>
            <li class="navbar-item">
-            <a href="#projects" class="navbar-links" id="projects-page">Projects</a>
-          </li>
-          <li class="navbar-item">
             <a href="#contact" class="navbar-links" id="contact-page">Connect</a>
           </li>
          </ul>
@@ -46,22 +44,131 @@
      <!-- Home Section -->
      <div class="home" id="home">
        <div class="home-container">
-         <h1>Hello, I'm Barry</h1>
-         <p class="home-description">Welcome to my site!</p>
+         <div class="home-content">
+           <h1 class="home-greeting">Hello, I'm Barry</h1>
+           <h2>Risk Analyst · Data Scientist</h2>
+           <p>Computer Science (BComp.) graduate, Data Science specialisation, 2nd Major in Business</p>
+           <p>Nanyang Technological University (NTU) Singapore</p>
+         </div>
+         <div class="home-img-container">
+           <div class="my-img"><img src="./Images/my-image.jpeg" alt="Barry Ng"></div>
+         </div>
        </div>
      </div>
 
-     <!-- About Section -->
-     <div class="main" id="about">
-       <div class="main-container">
-         <div class="main-img-container">
-           <div class="my-img"><img src="./Images/my-image.jpeg" alt=""></div>
-         </div>
-         <div class="main-content">
-           <h1><u>About Me</u></h1>
-           <p>I'm a 3rd year Computer Science & Business student at Nanyang Technological University (NTU), Singapore</p>
-           <p>In my development journey, I've gained various fullstack experience and built engaging sites that elevates user experience</p>
-           <p>Beyond development, my other area of passion lies in data and analytics, particularly turning raw data into actionable insights</p>
+     <!-- Experience Section -->
+     <div class="experience" id="experience">
+       <div class="experience-container">
+         <h1><u>Experience</u></h1>
+         <div class="experience-wrapper">
+
+           <!-- Binance -->
+           <div class="experience-card">
+             <div class="experience-header">
+               <img class="experience-logo" src="./Images/binance.jpeg" alt="Binance logo">
+               <div class="experience-title">
+                 <h2>Risk Analyst</h2>
+                 <p class="experience-period">Oct 2026 - Present</p>
+               </div>
+             </div>
+             <p class="experience-company">Binance</p>
+             <ul class="experience-details">
+               <li>Interpreting anomalies and frauds by analysing user volume, transactions, and assets data</li>
+               <li>Developing fraud detection rules, alerts, and operational procedures to improve the efficiency of risk controls</li>
+             </ul>
+             <div class="experience-tags">
+               <span>SQL</span>
+               <span>Risk Analytics</span>
+             </div>
+           </div>
+
+           <!-- Shopee -->
+           <div class="experience-card">
+             <div class="experience-header">
+               <img class="experience-logo" src="./Images/shopee.png" alt="Shopee logo">
+               <div class="experience-title">
+                 <h2>Data Analyst Intern</h2>
+                 <p class="experience-period">Sep 2025 - Nov 2025</p>
+               </div>
+             </div>
+             <p class="experience-company">Shopee</p>
+             <ul class="experience-details">
+               <li>Analysing regional e-commerce datasets to generate key business metrics for business decisions</li>
+               <li>Building of dashboards to aid Key Account Managers in monitoring GMV, orders, revenue and buyer performance across category portfolios</li>
+             </ul>
+             <div class="experience-tags">
+               <span>SQL</span>
+               <span>Python</span>
+               <span>Dashboards</span>
+               <span>Business Intelligence</span>
+             </div>
+           </div>
+
+           <!-- Monee -->
+           <div class="experience-card">
+             <div class="experience-header">
+               <img class="experience-logo" src="./Images/monee.png" alt="Monee logo">
+               <div class="experience-title">
+                 <h2>Business Analyst Intern</h2>
+                 <p class="experience-period">Jun 2025 - Aug 2025</p>
+               </div>
+             </div>
+             <p class="experience-company">Monee</p>
+             <ul class="experience-details">
+               <li>Automating a recurring investment performance report with over 80 metrics for regional stakeholders</li>
+               <li>Analysing investment activities and assets under management to support business monitoring and reporting</li>
+             </ul>
+             <div class="experience-tags">
+               <span>SQL</span>
+               <span>Google Sheets</span>
+               <span>Dashboards</span>
+               <span>Investment Analytics</span>
+               <span>Financial Modelling</span>
+             </div>
+           </div>
+
+           <!-- Komax -->
+           <div class="experience-card">
+             <div class="experience-header">
+               <img class="experience-logo" src="./Images/komax.png" alt="Komax logo">
+               <div class="experience-title">
+                 <h2>Software Engineer Intern</h2>
+                 <p class="experience-period">Jan 2025 - May 2025</p>
+               </div>
+             </div>
+             <p class="experience-company">Komax</p>
+             <ul class="experience-details">
+               <li>Developing of software application for hardware interface</li>
+               <li>Designing and implementing reusable frontend components to ease future implementations</li>
+             </ul>
+             <div class="experience-tags">
+               <span>C#</span>
+               <span>.NET</span>
+               <span>Blazor</span>
+             </div>
+           </div>
+
+           <!-- Liberty Mutual Insurance -->
+           <div class="experience-card">
+             <div class="experience-header">
+               <img class="experience-logo" src="./Images/liberty.jpg" alt="Liberty Mutual Insurance logo">
+               <div class="experience-title">
+                 <h2>Software Engineer Intern</h2>
+                 <p class="experience-period">May 2024 - Jul 2024</p>
+               </div>
+             </div>
+             <p class="experience-company">Liberty Mutual Insurance</p>
+             <ul class="experience-details">
+               <li>Supporting software engineering and development workflows, including Log4j remediation, Jenkins pipelines and AWS-based tooling</li>
+               <li>Optimising multi-environment deployments via Jenkins CI/CD pipeline</li>
+             </ul>
+             <div class="experience-tags">
+               <span>Jenkins</span>
+               <span>Docker</span>
+               <span>AWS</span>
+             </div>
+           </div>
+
          </div>
        </div>
      </div>
@@ -97,15 +204,6 @@
          </div>
        </div>
      </div>
-
-     <!-- Projects Section -->
-     <div class="projects" id="projects">
-      <div class="projects-container">
-        <h1><u>My Projects</u></h1>
-        <p class="projects-main">This <span class="white">Portfolio</span> is built using HTML, CSS, & JavaScript</p>
-        <p class="projects-description">Stay tuned for more...</p>
-      </div>
-    </div>
 
      <!-- Footer Section -->
      <div class="footer-container">
